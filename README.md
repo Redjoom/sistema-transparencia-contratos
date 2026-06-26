@@ -1,27 +1,34 @@
-# sistema-transparencia-contratos
-Sistema offline para auditoría y testado de contratos conforme a LGTAIP (México)
 # 🏛️ Sistema Institucional de Transparencia v1.0
 
-Sistema offline para auditoría y testado automático de contratos conforme a la legislación mexicana (LGTAIP).
+Sistema offline para **auditoría y testado automático de contratos** conforme a la legislación mexicana de transparencia (LGTAIP).
+
+---
 
 ## 🚀 Funcionalidades
 
-- ✅ Análisis de contratos (IA local con Ollama)
-- ✅ Detección de datos personales (RFC, CURP, etc.)
-- ✅ Testado automático conforme a Art. 116 LGTAIP
+- ✅ Análisis de contratos con IA local (Ollama)
+- ✅ Detección automática de datos personales (RFC, CURP, email, etc.)
+- ✅ Testado conforme a Art. 116 LGTAIP
+- ✅ Eliminación REAL de datos (no solo visual)
 - ✅ Generación de versión pública en PDF
-- ✅ Interfaz estilo sistema institucional (vintage)
+- ✅ Interfaz estilo sistema institucional (Windows clásico)
+
+---
 
 ## 🧠 Tecnologías
 
-- Python + PyQt5
-- Ollama (modelo local)
-- PyMuPDF
-- Regex + IA
+- 🐍 Python
+- 🖥️ PyQt5 (interfaz estilo Windows vintage)
+- 🤖 Ollama (modelo local: phi3)
+- 📄 PyMuPDF (manejo de PDFs)
+- 🔎 Regex + IA
+
+---
 
 ## ⚙️ Instalación
 
+Clonar repositorio:
+
 ```bash
-git clone https://github.com/TU_USUARIO/sistema-transparencia-contratos.git
+git clone https://github.com/Redjoom/sistema-transparencia-contratos.git
 cd sistema-transparencia-contratos
-pip install -r requirements.txt
