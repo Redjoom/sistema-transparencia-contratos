@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local user data (credentials, activity logs)
+data/
+
+# WAT framework files
+credentials.json
+token.json
+
+# PyInstaller build artifacts
+dist/
+build/
+*.spec
